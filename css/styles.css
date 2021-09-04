@@ -1,0 +1,209 @@
+body {
+  background: rgb(175, 90, 215);
+  background: linear-gradient(
+    0deg,
+    rgba(252, 183, 168, 1) 0%,
+    rgba(175, 90, 215, 1) 100%
+  );
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #999;
+  text-decoration: none;
+  transition: 0.2s;
+}
+a:hover {
+  color: #eee;
+}
+h2 {
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1em;
+}
+b {
+  color: #fff;
+}
+
+.custom-gutter > [class*="col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/* navbar */
+.navbar {
+  margin: 4em 0;
+  width: 100%;
+  padding: 0;
+}
+.navbar-nav a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+  transition: 0.2s;
+}
+.navbar-nav a:hover {
+  color: #eee;
+  border-bottom: 1px solid #eee;
+}
+.navbar-brand {
+  width: 240px;
+  height: 32px;
+}
+
+/* cloulds */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Averia Serif Libre", cursive;
+}
+h1 {
+  font-size: 4em;
+}
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@-moz-keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes animateCloud {
+  0% {
+    margin-left: -1000px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  -webkit-animation: animateCloud 35s linear infinite;
+  -moz-animation: animateCloud 35s linear infinite;
+  animation: animateCloud 35s linear infinite;
+
+  -webkit-transform: scale(0.65);
+  -moz-transform: scale(0.65);
+  transform: scale(0.65);
+}
+
+.x2 {
+  -webkit-animation: animateCloud 20s linear infinite;
+  -moz-animation: animateCloud 20s linear infinite;
+  animation: animateCloud 20s linear infinite;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+.x3 {
+  -webkit-animation: animateCloud 30s linear infinite;
+  -moz-animation: animateCloud 30s linear infinite;
+  animation: animateCloud 30s linear infinite;
+
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.x4 {
+  -webkit-animation: animateCloud 18s linear infinite;
+  -moz-animation: animateCloud 18s linear infinite;
+  animation: animateCloud 18s linear infinite;
+
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+}
+
+.x5 {
+  -webkit-animation: animateCloud 25s linear infinite;
+  -moz-animation: animateCloud 25s linear infinite;
+  animation: animateCloud 25s linear infinite;
+
+  -webkit-transform: scale(0.55);
+  -moz-transform: scale(0.55);
+  transform: scale(0.55);
+}
+
+/* OBJECTS */
+
+.cloud {
+  background-image: url(../img/cloud1.png);
+  background-repeat: no-repeat;
+  height: 101px;
+  position: relative;
+  width: 300px;
+  z-index: 102;
+}
+.nav {
+  margin-bottom: 5em;
+}
+.logo {
+  display: block;
+  margin: 7em auto 0 auto;
+  z-index: 101;
+}
+
+/* wrapper */
+/* .wrapper {
+    background-image:
+    url(../img/river.svg),
+    url(../img/mountainFront.svg),
+    url(../img/mountainBack.svg),
+    url(../img/mountainFar.svg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%, 90%, 100%;
+    background-position: 100% left, 60% left, 90% right, 50% right;
+    min-height: 50em;
+} */
+.wrapper {
+  background-image: url(../img/wrapperBg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% top;
+  min-height: 70em;
+}
+
+/* footer */
+.footer {
+  background: url(../img/footerBG.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 34em;
+  display: none;
+}
+
+.privacy {
+  margin-top: 8em;
+  color: #000;
+}

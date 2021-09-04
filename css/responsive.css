@@ -1,0 +1,32 @@
+/* ==========================
+  MEDIA QUERIES
+========================== */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+  /* mon */
+  .mon-tv1 {
+    background-position: center bottom -240px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  body {padding: 30px;}
+  video {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+}
+@media (max-width: 480px) {
+
+}

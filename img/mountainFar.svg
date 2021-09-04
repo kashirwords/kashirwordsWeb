@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="864px" height="678px" viewBox="0 0 864 678" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mountainFar</title>
+    <defs>
+        <linearGradient x1="50%" y1="19.8415298%" x2="28.6891381%" y2="56.5613531%" id="linearGradient-1">
+            <stop stop-color="#AB7FD1" offset="0%"></stop>
+            <stop stop-color="#D198BD" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="76.2169102%" y1="28.3138219%" x2="70.8296359%" y2="61.0843383%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0.0926573427" offset="0%"></stop>
+            <stop stop-color="#D198BD" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mountainFar" transform="translate(0.994841, 0.504229)">
+            <polygon id="Mountian3" fill="url(#linearGradient-1)" points="-5.68434189e-14 311.737803 432.867858 0 523.177109 65.8942841 592.764952 32.7046311 863.004957 204.420617 863.004957 676.195479 -5.68434189e-14 676.195479"></polygon>
+            <polygon id="mountainSha" fill="url(#linearGradient-2)" points="132.779843 437.866366 515.860519 138.909702 607.633245 187.416932 592.764952 32.7046311 863.004957 204.420617 863.004957 676.195479 -5.68434189e-14 676.195479"></polygon>
+        </g>
+    </g>
+</svg>

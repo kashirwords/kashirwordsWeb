@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1523px" height="1441px" viewBox="0 0 1523 1441" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mountainFront</title>
+    <defs>
+        <linearGradient x1="69.462232%" y1="5.3200976%" x2="76.3328939%" y2="82.0122866%" id="linearGradient-1">
+            <stop stop-color="#AA74C6" offset="0%"></stop>
+            <stop stop-color="#5F127F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="85.8442815%" y1="6.27226776%" x2="83.5928137%" y2="40.2555773%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0.14729021" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mountainFront" transform="translate(0.001011, 0.533037)">
+            <polygon id="Mountinain1" fill="url(#linearGradient-1)" points="1152.33398 138.211068 1086.94949 99.3143227 920.903379 257.480362 827.440449 224.67388 383.495727 526.212522 0 526.212522 0 1439.14523 1522.41662 1439.14523 1522.41662 188.113772 1326.76276 1.13686838e-13"></polygon>
+            <polygon id="mountainSh" fill="url(#linearGradient-2)" points="1290.30655 227.25606 1086.94949 99.3143227 1043.51495 356.045853 946.435112 320.924385 513.754724 644.469759 48.3482865 972.530637 0 1439.14523 1522.41662 1439.14523 1522.41662 188.113772 1326.76276 1.13686838e-13"></polygon>
+        </g>
+    </g>
+</svg>

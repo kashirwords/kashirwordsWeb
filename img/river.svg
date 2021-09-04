@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1374px" height="878px" viewBox="0 0 1374 878" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>river</title>
+    <defs>
+        <linearGradient x1="60.6243235%" y1="29.7086683%" x2="35.0014062%" y2="70.2913317%" id="linearGradient-1">
+            <stop stop-color="#FDE0DD" offset="0%"></stop>
+            <stop stop-color="#FABEB9" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="987.016634 1039.94105 358.923746 1141.99788 722.321083 1208.33444 0.000809113924 1334.15164 0.000809113924 1834.67827 504.948058 1835 1377.33319 1220.96438 906.263019 1124.1387 1301.06207 1044.15293 738.752164 957.576966"></polygon>
+        <filter x="-2.5%" y="-3.9%" width="104.9%" height="107.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="34" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.481397509 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.534365699">
+        <g id="web" transform="translate(0.000000, -2404.000000)">
+            <g id="Group" transform="translate(-4.000000, 0.000000)">
+                <g id="river" transform="translate(0.000000, 1447.000000)">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
